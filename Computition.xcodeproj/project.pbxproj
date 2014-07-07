@@ -19,6 +19,7 @@
 		1CAE25ED196B61C30016DE81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAE25D5196B61C20016DE81 /* UIKit.framework */; };
 		1CAE25F5196B61C30016DE81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CAE25F3196B61C30016DE81 /* InfoPlist.strings */; };
 		1CAE25F7196B61C30016DE81 /* ComputitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAE25F6196B61C30016DE81 /* ComputitionTests.m */; };
+		1CAE2602196B67400016DE81 /* BNRMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAE2601196B67400016DE81 /* BNRMath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		1CAE25F2196B61C30016DE81 /* ComputitionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ComputitionTests-Info.plist"; sourceTree = "<group>"; };
 		1CAE25F4196B61C30016DE81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1CAE25F6196B61C30016DE81 /* ComputitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComputitionTests.m; sourceTree = "<group>"; };
+		1CAE2600196B67400016DE81 /* BNRMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRMath.h; sourceTree = "<group>"; };
+		1CAE2601196B67400016DE81 /* BNRMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRMath.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				1CAE25E0196B61C20016DE81 /* BNRAppDelegate.h */,
+				1CAE2600196B67400016DE81 /* BNRMath.h */,
+				1CAE2601196B67400016DE81 /* BNRMath.m */,
 				1CAE25E1196B61C20016DE81 /* BNRAppDelegate.m */,
 				1CAE25E3196B61C20016DE81 /* Images.xcassets */,
 				1CAE25D8196B61C20016DE81 /* Supporting Files */,
@@ -241,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CAE25DE196B61C20016DE81 /* main.m in Sources */,
+				1CAE2602196B67400016DE81 /* BNRMath.m in Sources */,
 				1CAE25E2196B61C20016DE81 /* BNRAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
