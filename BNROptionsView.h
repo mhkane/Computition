@@ -1,13 +1,13 @@
 //
-//  BNREquationViewController.h
+//  BNROptionsView.h
 //  Computition
 //
 //  Created by Kayode Ezike on 7/7/14.
 //  Copyright (c) 2014 Big Nerd Ranch. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface BNREquationViewController : UIViewController
+@interface BNROptionsView : UIView
 
 @end

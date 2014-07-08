@@ -12,12 +12,21 @@
 
 @property (nonatomic) NSString *question;
 - (void)updateQuestion;
-- (NSString)
+- (BOOL)isCorrect;
+
 
 @end
 
 @implementation BNREquationViewController
 
+- (void)updateQuestion
+{
+    
+}
 
+- (BOOL)isCorrect
+{
+    
+}
 
 @end
