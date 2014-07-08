@@ -12,7 +12,7 @@
 
 @property (nonatomic) NSString *question;
 - (void)updateQuestion;
-- (NSString)
+- (BOOL)isCorrect;
 
 @end
 

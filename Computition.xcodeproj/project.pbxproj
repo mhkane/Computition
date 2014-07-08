@@ -23,6 +23,8 @@
 		42FA88ED196B732E00749442 /* BNRMath.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FA88EC196B732E00749442 /* BNRMath.xib */; };
 		42FA88F0196B75E100749442 /* BNREquationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FA88EF196B75E100749442 /* BNREquationViewController.m */; };
 		42FA88F3196B77F400749442 /* BNREquationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FA88F2196B77F400749442 /* BNREquationView.m */; };
+		42FA88F6196B7A1200749442 /* BNROptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FA88F5196B7A1200749442 /* BNROptionsViewController.m */; };
+		42FA88F9196B837A00749442 /* BNROptionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FA88F8196B837A00749442 /* BNROptionsView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,10 @@
 		42FA88EF196B75E100749442 /* BNREquationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNREquationViewController.m; sourceTree = "<group>"; };
 		42FA88F1196B77F400749442 /* BNREquationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNREquationView.h; sourceTree = "<group>"; };
 		42FA88F2196B77F400749442 /* BNREquationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNREquationView.m; sourceTree = "<group>"; };
+		42FA88F4196B7A1200749442 /* BNROptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNROptionsViewController.h; sourceTree = "<group>"; };
+		42FA88F5196B7A1200749442 /* BNROptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNROptionsViewController.m; sourceTree = "<group>"; };
+		42FA88F7196B837A00749442 /* BNROptionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNROptionsView.h; sourceTree = "<group>"; };
+		42FA88F8196B837A00749442 /* BNROptionsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNROptionsView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +97,10 @@
 				42FA88EC196B732E00749442 /* BNRMath.xib */,
 				42FA88EE196B75E100749442 /* BNREquationViewController.h */,
 				42FA88EF196B75E100749442 /* BNREquationViewController.m */,
+				42FA88F4196B7A1200749442 /* BNROptionsViewController.h */,
+				42FA88F5196B7A1200749442 /* BNROptionsViewController.m */,
+				42FA88F7196B837A00749442 /* BNROptionsView.h */,
+				42FA88F8196B837A00749442 /* BNROptionsView.m */,
 				42FA88F1196B77F400749442 /* BNREquationView.h */,
 				42FA88F2196B77F400749442 /* BNREquationView.m */,
 				1CAE25D7196B61C20016DE81 /* Computition */,
@@ -261,8 +271,10 @@
 			files = (
 				1CAE25DE196B61C20016DE81 /* main.m in Sources */,
 				42FA88F0196B75E100749442 /* BNREquationViewController.m in Sources */,
+				42FA88F6196B7A1200749442 /* BNROptionsViewController.m in Sources */,
 				1CAE2602196B67400016DE81 /* BNRMath.m in Sources */,
 				1CAE25E2196B61C20016DE81 /* BNRAppDelegate.m in Sources */,
+				42FA88F9196B837A00749442 /* BNROptionsView.m in Sources */,
 				42FA88F3196B77F400749442 /* BNREquationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

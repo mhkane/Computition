@@ -1,5 +1,5 @@
 //
-//  BNREquationViewController.h
+//  BNROptionsViewController.h
 //  Computition
 //
 //  Created by Kayode Ezike on 7/7/14.
@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface BNREquationViewController : UIViewController
+@interface BNROptionsViewController : UIViewController
 
 @end
