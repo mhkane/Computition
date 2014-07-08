@@ -25,6 +25,7 @@
 		42FA88F3196B77F400749442 /* BNREquationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FA88F2196B77F400749442 /* BNREquationView.m */; };
 		42FA88F6196B7A1200749442 /* BNROptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FA88F5196B7A1200749442 /* BNROptionsViewController.m */; };
 		42FA88F9196B837A00749442 /* BNROptionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FA88F8196B837A00749442 /* BNROptionsView.m */; };
+		92A0C2E8196BB47D00FB6C70 /* BNRModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A0C2E7196BB47D00FB6C70 /* BNRModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		42FA88F5196B7A1200749442 /* BNROptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNROptionsViewController.m; sourceTree = "<group>"; };
 		42FA88F7196B837A00749442 /* BNROptionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNROptionsView.h; sourceTree = "<group>"; };
 		42FA88F8196B837A00749442 /* BNROptionsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNROptionsView.m; sourceTree = "<group>"; };
+		92A0C2E6196BB47D00FB6C70 /* BNRModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRModel.h; sourceTree = "<group>"; };
+		92A0C2E7196BB47D00FB6C70 /* BNRModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,8 @@
 				42FA88EE196B75E100749442 /* BNREquationViewController.h */,
 				42FA88EF196B75E100749442 /* BNREquationViewController.m */,
 				42FA88F4196B7A1200749442 /* BNROptionsViewController.h */,
+				92A0C2E6196BB47D00FB6C70 /* BNRModel.h */,
+				92A0C2E7196BB47D00FB6C70 /* BNRModel.m */,
 				42FA88F5196B7A1200749442 /* BNROptionsViewController.m */,
 				42FA88F7196B837A00749442 /* BNROptionsView.h */,
 				42FA88F8196B837A00749442 /* BNROptionsView.m */,
@@ -269,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92A0C2E8196BB47D00FB6C70 /* BNRModel.m in Sources */,
 				1CAE25DE196B61C20016DE81 /* main.m in Sources */,
 				42FA88F0196B75E100749442 /* BNREquationViewController.m in Sources */,
 				42FA88F6196B7A1200749442 /* BNROptionsViewController.m in Sources */,
