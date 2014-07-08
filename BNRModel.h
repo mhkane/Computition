@@ -10,4 +10,8 @@
 
 @interface BNRModel : NSObject
 
+@property (nonatomic) int *firstItem;
+@property (nonatomic) int *secondItem;
+@property (nonatomic, copy) NSString *operator;
+
 @end

@@ -10,4 +10,11 @@
 
 @implementation BNRModel
 
+// Create an array that holds the first item
+
+// Create a second array that holds the second item
+
+// Create an array that holds the operators
+
+
 @end
