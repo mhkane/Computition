@@ -23,6 +23,7 @@
 		42FA88ED196B732E00749442 /* BNRMath.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FA88EC196B732E00749442 /* BNRMath.xib */; };
 		42FA88F0196B75E100749442 /* BNREquationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FA88EF196B75E100749442 /* BNREquationViewController.m */; };
 		42FA88F3196B77F400749442 /* BNREquationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FA88F2196B77F400749442 /* BNREquationView.m */; };
+		92A0C2E5196B8A7900FB6C70 /* BNRModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A0C2E4196B8A7900FB6C70 /* BNRModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		42FA88EF196B75E100749442 /* BNREquationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNREquationViewController.m; sourceTree = "<group>"; };
 		42FA88F1196B77F400749442 /* BNREquationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNREquationView.h; sourceTree = "<group>"; };
 		42FA88F2196B77F400749442 /* BNREquationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNREquationView.m; sourceTree = "<group>"; };
+		92A0C2E3196B8A7900FB6C70 /* BNRModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRModel.h; sourceTree = "<group>"; };
+		92A0C2E4196B8A7900FB6C70 /* BNRModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				42FA88EE196B75E100749442 /* BNREquationViewController.h */,
 				42FA88EF196B75E100749442 /* BNREquationViewController.m */,
 				42FA88F1196B77F400749442 /* BNREquationView.h */,
+				92A0C2E3196B8A7900FB6C70 /* BNRModel.h */,
+				92A0C2E4196B8A7900FB6C70 /* BNRModel.m */,
 				42FA88F2196B77F400749442 /* BNREquationView.m */,
 				1CAE25D7196B61C20016DE81 /* Computition */,
 				1CAE25F0196B61C30016DE81 /* ComputitionTests */,
@@ -261,6 +266,7 @@
 			files = (
 				1CAE25DE196B61C20016DE81 /* main.m in Sources */,
 				42FA88F0196B75E100749442 /* BNREquationViewController.m in Sources */,
+				92A0C2E5196B8A7900FB6C70 /* BNRModel.m in Sources */,
 				1CAE2602196B67400016DE81 /* BNRMath.m in Sources */,
 				1CAE25E2196B61C20016DE81 /* BNRAppDelegate.m in Sources */,
 				42FA88F3196B77F400749442 /* BNREquationView.m in Sources */,
