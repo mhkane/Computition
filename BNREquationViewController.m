@@ -14,10 +14,19 @@
 - (void)updateQuestion;
 - (BOOL)isCorrect;
 
+
 @end
 
 @implementation BNREquationViewController
 
+- (void)updateQuestion
+{
+    
+}
 
+- (BOOL)isCorrect
+{
+    
+}
 
 @end
