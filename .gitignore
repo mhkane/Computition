@@ -1,6 +1,18 @@
 
 .DS_Store
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+*.DS_Store
+=======
+>>>>>>> Kayode
+=======
 
 Computition.xcodeproj/project.xcworkspace/xcuserdata/kezike.xcuserdatad/UserInterfaceState.xcuserstate
 
 .DS_Store
+>>>>>>> kayodeBranch
+
+.DS_Store.swp
+
+Computition.xcodeproj/project.pbxproj
